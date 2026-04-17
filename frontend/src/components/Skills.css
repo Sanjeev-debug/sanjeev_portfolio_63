@@ -11,4 +11,7 @@
         flex-wrap: wrap;
 
     }
- 
+ h1{
+    color: aqua;
+    text-align: center;
+ }

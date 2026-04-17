@@ -22,6 +22,7 @@ const Skills = () => {
   return (
     <>
        <div className='skillsMain' >
+        <h1>Skills Section</h1>
          
         <div className="cardMain">
            { skills.map((item, index)=>{

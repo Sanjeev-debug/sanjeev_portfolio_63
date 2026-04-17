@@ -16,7 +16,7 @@ import Education from '../components/Education';
 
 const Home = () => {
   return (
-    <>
+    <> 
       <div className='home'  >
         <LinesMove />
         <div className='mainHome' >

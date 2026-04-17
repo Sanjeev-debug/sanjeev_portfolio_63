@@ -4,6 +4,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
 
 }
@@ -49,6 +51,10 @@
     width: 100%;
  
 }
+ h1{
+    color: aqua;
+    text-align: center;
+ }
 
 
 

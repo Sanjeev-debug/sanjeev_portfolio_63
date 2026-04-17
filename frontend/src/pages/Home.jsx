@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import { ReactTyped } from 'react-typed';
 
 import LinesMove from '../components/LinesMove';
-import resumePDF from '../assets/Sanjeev_kumar_resume.pdf'
+import resumePDF from '../assets/sanjeev_kumar_resume.pdf'
 import Contact from '../components/Contact';
 import Divider from '../components/Divider';
 import Skills from '../components/Skills';

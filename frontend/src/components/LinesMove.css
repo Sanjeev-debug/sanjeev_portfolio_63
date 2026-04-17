@@ -1,0 +1,49 @@
+
+.lines{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    top: 55px;
+    left: 0;
+    z-index: 100;
+    
+   
+    
+}
+
+.leftline{
+    width: 0px;
+    height: 1px;
+    border: 1px solid aqua;
+    box-shadow: 0px 0px 5px 0px aqua;
+    animation: leftline 10s linear infinite alternate-reverse;
+    margin-bottom: 5px;
+    margin-top: 2px;
+   
+    
+   
+}
+.rightline{
+    width: 0px;
+    height: 1px;
+    border: 1px solid aqua;
+    box-shadow: 0px 0px 5px 0px aqua;
+    animation: leftline 10s linear infinite alternate-reverse;
+    float: right;
+    margin-bottom: 15px;
+    
+}
+
+
+@keyframes leftline{
+   0%{
+    width: 0%;
+   
+
+   }
+   100%{
+    width: 100%;
+   
+   }
+}

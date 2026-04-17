@@ -1,0 +1,83 @@
+.contactMain{
+    width: 100%;
+    background-color: black;
+    color: aqua;
+    /* height: 80vh; */
+    overflow: hidden;
+    /* border: 1px solid red; */
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap
+    
+}
+.contactMain h1{
+    margin: 2%;
+}
+.contactInfo{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.contact{
+    width: 45%;
+    height: 200px;
+     text-align: center;
+     box-shadow: 5px 5px 10px 1px;
+     margin-top: 10px;
+}
+.contact h3{
+    margin-top: 30px;
+    text-shadow: 0px 0px 10px aqua;
+}
+.contact a{
+    text-decoration: none;
+    color: goldenrod;
+    transition: all .4s linear;
+}
+.contact a:hover{
+    color: black;
+    
+
+
+}
+    
+    
+.contactIcon{
+  width: 45%;
+    height: 200px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    width: 95%;
+    height: 600px;
+    margin-top: 50px;
+    /* border: 1px solid aqua; */
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px 1px aqua;
+}
+
+
+
+@media (max-width:600px){
+    .contact{
+        width: 95%;
+    }
+    .contactIcon{
+        width: 95%;
+        margin-top: 50px;
+    }
+    .location{
+        width: 95%;
+        height: 300px;
+    }
+}

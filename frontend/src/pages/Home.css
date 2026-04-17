@@ -1,0 +1,176 @@
+.home{
+    background-color: black;
+}
+.mainHome{
+    
+    width: 100%;
+    /* height: 95vh; */
+     background-color: black ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+.homeContent{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid white; */
+    padding: 7%;
+}
+.homeSanjeevPhoto{
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.homeSanjeevPhoto .img{
+    width: 300px;
+    height: 450px;
+    margin: 70px auto;
+    box-shadow: 0px 0px 50px 1px rgb(9, 140, 140);
+    border-radius:100px 200px 100px 200px ;
+    background-image: url('../assets/Sanjeevk1.jpeg');
+    background-size: 100% 100%;
+   
+
+}
+.homeContent h1{
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px aqua;
+}
+
+.homeContent h3{
+    color: aqua;
+    text-shadow: 2px 2px 6px white;
+    margin-bottom: 20px;
+    margin-left: 5%;
+
+
+}
+.homeContent h4{
+    color: aqua;
+    text-shadow: 2px 2px 6px white;
+    margin-bottom: 20px;
+    margin-left: 5%;
+
+
+}
+.homeContent h4 a{
+    text-decoration: none;
+    color: pink;
+}
+.homeContent p{
+    text-shadow: 2px 2px 6px aqua;
+    margin-bottom: 50px;
+
+
+}
+.homeButton {
+    margin-top: 50px;
+    width: 90%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.contactButton{
+    width: 40%;
+    height: 40px;
+    font-size: 100%;
+    background-color: aqua ;
+    box-shadow: 0px 0px 10px 1px aqua; 
+    transition:all .3s ease-in-out  ;
+    text-align: center;
+    
+    /* font-weight: bold; */
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    
+    border-radius: 2px;
+    border-color: aqua ;
+     display: flex;             
+    align-items: center; 
+    justify-content: center; 
+    
+    
+   
+    
+}
+.contactButton .contactLink {
+color: black;
+font-weight: 500;
+text-decoration: none;
+}
+.resumeButton{
+    width: 40%;
+    height: 40px;
+
+    font-size: 100%;
+    background-color: black ;
+    box-shadow: 0px 0px 10px 1px aqua; 
+    transition:all .3s ease-in-out  ;
+    text-align: center;
+    /* font-weight: bold; */
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    
+    border-radius: 2px;
+    border-color: aqua ;
+     display: flex;             
+    align-items: center;  
+    justify-content: center;
+}
+
+.resumeButton .resumeLink{
+    
+    text-decoration: none;
+    color: aqua;
+    
+    
+    
+}
+.resumeButton:hover{
+    background-color: aqua !important;
+    box-shadow: 0px 0px 100px 1px aqua; 
+    
+
+
+}
+.resumeButton:hover .resumeLink{
+    color: black;
+}
+.contactButton:hover{
+   
+    background-color: black !important;
+    border-color: aqua !important;   
+    box-shadow: 0px 0px 100px 1px aqua; 
+
+    
+}
+.contactButton:hover .contactLink{
+    color: aqua;
+    border: aqua !important;
+}
+
+
+@media (max-width:600px){
+.homeContent{
+    width: 100% ;
+   
+}
+.homeSanjeevPhoto{
+    width: 100%;
+}
+.homeButton {
+    width: 100%;
+}
+
+
+}
+@media (min-width:601px) and (max-width:1024px){
+   .homeButton{
+    width:100% ;
+   }
+}

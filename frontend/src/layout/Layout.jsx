@@ -1,4 +1,5 @@
 
+import ChatBox from "../components/ChatBox"
 import Loading from "../components/Loading"
 import Footer from "../footer/Footer"
 import Navbar from "../navbar/Navbar"
@@ -9,6 +10,7 @@ const Layout =()=>{
         <>
         <Navbar/>
         <Outlet/>
+        <ChatBox/>
         <Loading/>  
         <Footer/> 
         

@@ -15,6 +15,7 @@ import RestaurantWeb from '../assets/RestaurantWeb.mp4'
 import lovevisiteWeb from '../assets/lovevisite.mp4'
 import AI_Assistant from '../assets/AI_Assistant.mp4'
 import YouTube_Analyzer from '../assets/YouTube_Analyzer.mp4'
+import smartClassAttend from '../assets/smartClassAttend.mp4'
 
 import HaatPoster from '../assets/poster.png'
 import CarPoster from '../assets/CarMoving.png'
@@ -30,6 +31,7 @@ import TodoAppPoster from '../assets/TodoApp.png'
 import lovevisiteAppPoster from '../assets/lovevisite.png'
 import AI_AssistantPoster from '../assets/AI_Assistant.png'
 import YouTube_AnalyzerPoster from '../assets/YouTube_Analyzer.png'
+import smartClassAttendPoster from '../assets/smartClassAttend.png'
 
 import VideoShow from '../components/VideoShow'
 
@@ -37,6 +39,12 @@ import VideoShow from '../components/VideoShow'
 
 const Projects = () => {
   const videoContent = [
+    {
+      title1: "Smart Class Attend - AI Attendance : Website",
+      title2: "Using : Flask , Streamlit",
+      videoName: smartClassAttend,
+      posterName: smartClassAttendPoster
+    },
     {
       title1: "AI Assistant : Website",
       title2: "Using : Flask , OpenAI API, Model = gpt-5.4",

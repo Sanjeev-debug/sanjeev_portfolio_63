@@ -15,7 +15,7 @@ import RestaurantWeb from '../assets/RestaurantWeb.mp4'
 import lovevisiteWeb from '../assets/lovevisite.mp4'
 import AI_Assistant from '../assets/AI_Assistant.mp4'
 import YouTube_Analyzer from '../assets/YouTube_Analyzer.mp4'
-import smartClassAttend from '../assets/smartClassAttend.mp4'
+import smartClassAttend from '../assets/smartClassattend.mp4'
 
 import HaatPoster from '../assets/poster.png'
 import CarPoster from '../assets/CarMoving.png'
